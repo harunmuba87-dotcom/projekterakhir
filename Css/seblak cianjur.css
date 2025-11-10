@@ -1,0 +1,133 @@
+/* === STYLE UMUM === */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* === NAVBAR === */
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: linear-gradient(90deg, #008b8b, #00bfa5);
+  color: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.b {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.b img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.a h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.c a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.c a:hover,
+.c .actif {
+  text-decoration: underline;
+}
+
+.d {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.d li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.d li a:hover,
+.d li a.active {
+  text-decoration: underline;
+}
+
+/* === KONTEN UTAMA === */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-kuliner h2 {
+  color: #00796b;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gambar-kuliner {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  object-fit: cover;
+}
+
+.detail-kuliner p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Tombol Kembali */
+.kembali {
+  display: inline-block;
+  background-color: #009688;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.kembali:hover {
+  background-color: #00796b;
+}
+
+/* === FOOTER === */
+.e {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 14px;
+}
